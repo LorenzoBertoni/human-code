@@ -1,0 +1,14 @@
+Apro il frigo 
+Scorro per il frigo 
+    ?SE l'elemento fa parte di ricetta 
+        lo prendo 
+    ALTRIMENTI scorro oltre fino a che non ho tutti gli elementi della ricetta
+Peso gli ingredienti
+    ?SE il peso corrisponde alla quantità specificata nella ricetta 
+        prendo quella quantità
+Assemblo i vari ingredienti riferendomi alla ricetta
+Accendo il forno 
+    ?SE forno è ventilato AND la temperatrura é uguale a 200 gradi
+        imposto un timer a 30 minuti 
+        inforno 
+Quando timer è uguale a 30 minuti tiro fuori.
